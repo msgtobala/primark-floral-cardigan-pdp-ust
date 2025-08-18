@@ -23,7 +23,7 @@ const Reviews: React.FC = () => {
       timeAgo: '2 WEEKS AGO',
       rating: 4,
       comment:
-        'Worth the splurge—easy to handle at 75 and surprisingly spacious. Love it!',
+        'Very good quality, it was a gift and the person loved it.',
       images: [review1],
     },
     {
@@ -31,8 +31,7 @@ const Reviews: React.FC = () => {
       name: 'MichaelR',
       timeAgo: '2 WEEKS AGO',
       rating: 4,
-      comment:
-        'Love it! Rolls through airports well and easily fits on the CRJ900s!',
+      comment: 'It\'s beautiful. It works great, and the coffee is an aromatic pleasure. I bought an adapter for an induction cooktop, and it works great. I recommend it.',
       images: [review2],
     },
     {
@@ -41,7 +40,7 @@ const Reviews: React.FC = () => {
       timeAgo: '2 WEEKS AGO',
       rating: 4,
       comment:
-        'Replaced my old Tumi with this compact roller. Surprisingly spacious—fit everything for a 2-night trip using the expansion. Two-compartment layout is smart, TSA lock works well. Recommend getting Tumi hangers and shirt pack.',
+        'Look at this perfection! It\'s original! It even came with Lady Whistledown\'s review. The material is very sturdy, the paint looks like enamel, it\'s almost a shame to use it. I recommend it to Bridgerton fans who want to collect; here we\'ll use it to make a good cup of coffee.',
       images: [review3, review4],
     },
     {
@@ -50,7 +49,7 @@ const Reviews: React.FC = () => {
       timeAgo: '4 WEEKS AGO',
       rating: 4,
       comment:
-        'A+++++ highly recommend. I recently went on a five day trip and fit everything in here. I love the bag.',
+        'Feels like being back in Italy Cool design Easy cleaning',
       images: [],
     },
   ];
@@ -233,7 +232,7 @@ const Reviews: React.FC = () => {
                     <div className="flex items-start justify-between gap-6">
                       {/* Review Text */}
                       <div className="flex-1">
-                        <p className="text-[#5C5F6A] text-sm leading-relaxed">
+                        <p className="text-[#5C5F6A] text-sm leading-relaxed max-w-[85%]">
                           {review.comment}
                         </p>
                       </div>

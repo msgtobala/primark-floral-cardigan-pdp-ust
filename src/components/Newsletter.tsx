@@ -44,7 +44,7 @@ const Newsletter: React.FC = () => {
           <div className="flex-1 lg:w-1/2 flex justify-start">
             <form
               onSubmit={handleSubmit}
-              className="flex flex-col sm:flex-row gap-4 w-full"
+              className="flex flex-col sm:flex-row gap-4 w-full justify-end"
             >
               <div className="">
                 <input

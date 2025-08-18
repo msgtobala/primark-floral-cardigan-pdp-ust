@@ -78,26 +78,26 @@ const HeroSection: React.FC = () => {
   const youMightAlsoLikeBase: Product[] = [
     {
       id: '1',
-      name: 'TUMI',
-      brand: 'TUMI',
-      price: '$599.00 - $750.00',
-      originalPrice: '$750.00',
+      name: 'YVONNE ELLEN',
+      brand: 'YVONNE ELLEN',
+      price: '269.00 AED',
+      originalPrice: '300.00 AED',
       image: tumi1,
     },
     {
       id: '2',
-      name: 'MAISON de SABRE',
-      brand: 'MAISON de SABRE',
-      price: '$499.00',
+      name: 'YVONNE ELLEN',
+      brand: 'YVONNE ELLEN',
+      price: '269.00 AED',
       image: tumi2,
       isSponsored: true,
     },
     {
       id: '3',
-      name: 'TUMI',
-      brand: 'TUMI',
-      price: '$619.00',
-      originalPrice: '$775.00',
+      name: 'BIALETTI',
+      brand: 'BIALETTI',
+      price: '399.00 AED',
+      originalPrice: '420.00 AED',
       image: tumi3,
     },
   ];
@@ -231,10 +231,10 @@ const HeroSection: React.FC = () => {
               {/* Rating and Reviews */}
               <div className="flex items-center gap-2 mb-3">
                 <div className="flex items-center">
-                  <span className="material-icons-outlined text-black text-sm">
+                  <span className="material-icons-outlined text-[#7F7F7F] text-sm">
                     star
                   </span>
-                  <span className="text-sm text-gray-600 ml-1">
+                  <span className="text-sm text-[#7F7F7F] ml-1">
                     4.2 — 54 Reviews
                   </span>
                 </div>
@@ -247,22 +247,23 @@ const HeroSection: React.FC = () => {
 
               {/* Product Title */}
               <h1 className="text-lg md:text-xl font-medium text-black mb-2 leading-tight">
-                Alpha 3 Collection 22-Inch International Expandable Wheeled
-                Carry-On Bag
+                Bialetti Bridgerton Moka Espresso Maker - Blue (Makes 3 Cups)
               </h1>
 
               {/* Brand */}
-              <p className="text-gray-600 mb-3 text-sm">Tumi</p>
+              <p className="text-gray-600 mb-3 text-sm">BIALETTI</p>
 
               {/* Price */}
               <div className="mb-4">
-                <span className="text-xl font-medium text-black">$875.00</span>
+                <span className="text-xl font-medium text-black">
+                  269.00 AED
+                </span>
               </div>
 
               {/* Description */}
-              <p className="text-gray-600 text-sm leading-relaxed mb-4">
-                Engineered for the journey, styled for success — TUMI redefines
-                travel with durability, function, and flawless design.
+              <p className="text-#[#777777] text-sm leading-relaxed mb-4">
+                Created in 1933, Bialetti’s iconic Moka Express meets Bridgerton
+                in a floral, gold-detailed design for a romantic coffee ritual.
               </p>
 
               {/* Color Selection */}
@@ -294,7 +295,7 @@ const HeroSection: React.FC = () => {
               </div>
 
               {/* Quantity and Add to Cart */}
-              <div className="flex items-center gap-3 mb-4">
+              <div className="flex items-center gap-3 mb-12">
                 <div className="flex items-center border border-gray-300 rounded">
                   <button
                     onClick={() => handleQuantityChange(-1)}
@@ -315,7 +316,7 @@ const HeroSection: React.FC = () => {
                   </button>
                 </div>
 
-                <button className="flex-1 bg-black text-white py-2 px-4 rounded hover:bg-gray-800 transition-colors font-medium text-sm">
+                <button className="flex-1 bg-[#405849] text-white py-2 px-4 rounded hover:bg-gray-800 transition-colors font-medium text-sm">
                   Add to cart
                 </button>
               </div>
@@ -324,13 +325,15 @@ const HeroSection: React.FC = () => {
               <div className="space-y-2 flex-1">
                 <details className="border-b border-gray-200 pb-2">
                   <summary className="flex items-center justify-between cursor-pointer py-2">
-                    <div className="flex items-center gap-2">
-                      <span className="material-icons-outlined text-gray-600 text-base">
+                    <div className="flex items-center gap-4">
+                      <span className="material-icons-outlined text-[#777777] text-base">
                         straighten
                       </span>
-                      <span className="font-medium text-sm">SIZE INFO</span>
+                      <span className="font-medium text-sm text-[#777777]">
+                        SIZE INFO
+                      </span>
                     </div>
-                    <span className="material-icons-outlined text-gray-600">
+                    <span className="material-icons-outlined text-[#777777]">
                       add
                     </span>
                   </summary>
@@ -338,15 +341,15 @@ const HeroSection: React.FC = () => {
 
                 <details className="border-b border-gray-200 pb-2">
                   <summary className="flex items-center justify-between cursor-pointer py-2">
-                    <div className="flex items-center gap-2">
-                      <span className="material-icons-outlined text-gray-600 text-base">
+                    <div className="flex items-center gap-4">
+                      <span className="material-icons-outlined text-[#777777] text-base">
                         local_shipping
                       </span>
-                      <span className="font-medium text-sm">
+                      <span className="font-medium text-sm text-[#777777]">
                         SHIPPING & RETURNS
                       </span>
                     </div>
-                    <span className="material-icons-outlined text-gray-600">
+                    <span className="material-icons-outlined text-[#777777]">
                       add
                     </span>
                   </summary>
@@ -354,13 +357,15 @@ const HeroSection: React.FC = () => {
 
                 <details className="border-b border-gray-200 pb-2">
                   <summary className="flex items-center justify-between cursor-pointer py-2">
-                    <div className="flex items-center gap-2">
-                      <span className="material-icons-outlined text-gray-600 text-base">
+                    <div className="flex items-center gap-4">
+                      <span className="material-icons-outlined text-[#777777] text-base">
                         card_giftcard
                       </span>
-                      <span className="font-medium text-sm">GIFT OPTIONS</span>
+                      <span className="font-medium text-sm text-[#777777]">
+                        GIFT OPTIONS
+                      </span>
                     </div>
-                    <span className="material-icons-outlined text-gray-600">
+                    <span className="material-icons-outlined text-[#777777]">
                       add
                     </span>
                   </summary>
@@ -368,15 +373,15 @@ const HeroSection: React.FC = () => {
 
                 <details className="pb-2">
                   <summary className="flex items-center justify-between cursor-pointer py-2">
-                    <div className="flex items-center gap-2">
-                      <span className="material-icons-outlined text-gray-600 text-base">
+                    <div className="flex items-center gap-4">
+                      <span className="material-icons-outlined text-[#777777] text-base">
                         support_agent
                       </span>
-                      <span className="font-medium text-sm">
+                      <span className="font-medium text-sm text-[#777777]">
                         PRODUCT ADVISORY
                       </span>
                     </div>
-                    <span className="material-icons-outlined text-gray-600">
+                    <span className="material-icons-outlined text-[#777777]">
                       add
                     </span>
                   </summary>
@@ -417,19 +422,19 @@ const HeroSection: React.FC = () => {
                         className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300"
                         style={{ padding: '0px' }}
                       />
-                      {product.isSponsored && (
-                        <span className="absolute top-2 left-2 text-xs text-gray-500 bg-white px-2 py-1 rounded">
-                          Sponsored
-                        </span>
-                      )}
                     </div>
 
                     {/* Product Info - Center aligned */}
                     <div className="text-center">
-                      <h4 className="font-medium text-sm mb-1">
+                      {product.isSponsored && (
+                        <span className="text-xs text-[#697579] rounded">
+                          Sponsored
+                        </span>
+                      )}
+                      <h4 className="font-medium text-sm mb-1 mt-1">
                         {product.brand}
                       </h4>
-                      <div className="flex items-center justify-center gap-1 flex-wrap">
+                      <div className="flex flex-col items-center justify-center gap-1 flex-wrap">
                         <span className="text-red-500 font-medium text-xs">
                           {product.price}
                         </span>

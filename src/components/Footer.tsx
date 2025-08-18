@@ -87,7 +87,7 @@ const Footer: React.FC = () => {
             {/* Support Column */}
             <div className="">
               <h3 className="text-[#878A92] font-regular text-[14px] mb-4 uppercase tracking-wide mb-[54px]">
-                Customer Service
+                Azadea
               </h3>
               <ul className="space-y-6">
                 <li>
@@ -95,72 +95,7 @@ const Footer: React.FC = () => {
                     href="#"
                     className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
                   >
-                    Contact Us
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
-                  >
-                    Order Status
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
-                  >
-                    Shipping
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
-                  >
-                    Return Policy & Exchanges
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
-                  >
-                    Price Adjustments
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
-                  >
-                    Gift Cards
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
-                  >
-                    FAQ
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            {/* Company Column */}
-            <div className="">
-              <h3 className="text-[#878A92] font-regular text-[14px] mb-4 uppercase tracking-wide mb-[54px]">
-                About Us
-              </h3>
-              <ul className="space-y-6">
-                <li>
-                  <a
-                    href="#"
-                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
-                  >
-                    All Brands
+                    About Us
                   </a>
                 </li>
                 <li>
@@ -176,8 +111,24 @@ const Footer: React.FC = () => {
                     href="#"
                     className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
                   >
-                    Corporate Social
-                    <br /> Responsibility
+                    Azadea Group
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Company Column */}
+            <div className="">
+              <h3 className="text-[#878A92] font-regular text-[14px] mb-4 uppercase tracking-wide mb-[54px]">
+                Help with
+              </h3>
+              <ul className="space-y-6">
+                <li>
+                  <a
+                    href="#"
+                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
+                  >
+                    Store Locator
                   </a>
                 </li>
                 <li>
@@ -185,8 +136,7 @@ const Footer: React.FC = () => {
                     href="#"
                     className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
                   >
-                    Diversity, Equity,
-                    <br /> Inclusion & Belonging
+                    Frequently Asked Questions
                   </a>
                 </li>
                 <li>
@@ -194,7 +144,7 @@ const Footer: React.FC = () => {
                     href="#"
                     className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
                   >
-                    Get Email Updates
+                    Fast Delivery
                   </a>
                 </li>
                 <li>
@@ -202,7 +152,7 @@ const Footer: React.FC = () => {
                     href="#"
                     className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
                   >
-                    Nordstrom Blog
+                    Free Returns
                   </a>
                 </li>
                 <li>
@@ -210,7 +160,23 @@ const Footer: React.FC = () => {
                     href="#"
                     className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
                   >
-                    Nordy Podcast
+                    Payment
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
+                  >
+                    Privacy & Cookie Policy
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
+                  >
+                    Terms & Conditions
                   </a>
                 </li>
               </ul>
@@ -219,7 +185,7 @@ const Footer: React.FC = () => {
             {/* Shop Column */}
             <div className="">
               <h3 className="text-[#878A92] font-regular text-[14px] mb-4 uppercase tracking-wide mb-[54px]">
-                Stores & Services
+                Services
               </h3>
               <ul className="space-y-6">
                 <li>
@@ -227,7 +193,7 @@ const Footer: React.FC = () => {
                     href="#"
                     className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
                   >
-                    Find a Store
+                    Order and Return Status
                   </a>
                 </li>
                 <li>
@@ -235,82 +201,7 @@ const Footer: React.FC = () => {
                     href="#"
                     className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
                   >
-                    Free Style Help
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
-                  >
-                    Alterations & Tailoring
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
-                  >
-                    SkinSpirit Clinic Spa
-                    <br />
-                    Nordstrom
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
-                  >
-                    Nordstrom Restaurants
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
-                  >
-                    Nordstrom Local
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            {/* Accepted Payments Column */}
-            <div className="">
-              <h3 className="text-[#878A92] font-regular text-[14px] mb-4 uppercase tracking-wide mb-[54px]">
-                Nordstrom Card & Rewards
-              </h3>
-              <ul className="space-y-6">
-                <li>
-                  <a
-                    href="#"
-                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
-                  >
-                    The Nordy Club Rewards
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
-                  >
-                    Apply for a Nordstrom Card
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
-                  >
-                    Pay My Bill
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
-                  >
-                    Manage My Nordstrom Card
+                    Coupons
                   </a>
                 </li>
               </ul>

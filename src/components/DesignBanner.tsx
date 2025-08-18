@@ -14,7 +14,7 @@ const DesignBanner: React.FC = () => {
         {/* Left Side - Solid Background with Text Content */}
         <div
           className="w-1/2 flex items-center justify-start pl-8 sm:pl-12 md:pl-16 lg:pl-20 xl:pl-24"
-          style={{ backgroundColor: '#2F3134', flex: '3' }}
+          style={{ backgroundColor: '#4F6585', flex: '3' }}
         >
           <div className="max-w-md">
             {/* Tag */}
@@ -31,20 +31,18 @@ const DesignBanner: React.FC = () => {
                   paddingLeft: '16px',
                 }}
               >
-                Crafted for Effortless Elegance
+                A Royal Coffee Experience
               </span>
             </div>
 
             {/* Main Title */}
             <h2 className="text-white font-medium text-2xl sm:text-3xl md:text-4xl lg:text-3xl xl:text-3xl mb-6 leading-tight">
-              Timeless Form. Confident Function.
+              Crafted for Coffee Lovers
             </h2>
 
             {/* Description */}
             <p className="text-white/70 text-sm sm:text-base md:text-lg leading-relaxed">
-              A carry-on that complements every journey, blending precision
-              design, elevated styling, and the signature versatility TUMI is
-              known for.
+              A Bridgerton-inspired collection blending Italian tradition, timeless design, and the romance of regal mornings.
             </p>
           </div>
         </div>
