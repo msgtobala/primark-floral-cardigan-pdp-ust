@@ -5,18 +5,17 @@ const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navigationItems = [
-    'New',
-    'Sale',
-    'Women',
-    'Men',
-    'Boys',
-    'Girls',
+    'RITA ORA',
+    'WOMEN',
+    'MEN',
+    'HOLIDAY',
+    'KIDS',
     'Furniture',
-    'Baby',
-    'Designer',
-    'Home',
-    'Gifts',
-    'Explore'
+    'HALLOWEEN',
+    'HOME',
+    'BEAUTY',
+    'COLLABS',
+    'EXPLORE'
   ];
 
   return (

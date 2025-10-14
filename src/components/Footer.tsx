@@ -94,14 +94,6 @@ const Footer: React.FC = () => {
                     href="#"
                     className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
                   >
-                    Primarkunlimited
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
-                  >
                     Primark Credit Options
                   </a>
                 </li>
@@ -118,23 +110,7 @@ const Footer: React.FC = () => {
                     href="#"
                     className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
                   >
-                    Gift Cards
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
-                  >
                     Gift Experiences
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
-                  >
-                    Flowers, Plants & Wine
                   </a>
                 </li>
                 <li>
@@ -151,6 +127,14 @@ const Footer: React.FC = () => {
                     className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
                   >
                     Terms & Conditions
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
+                  >
+                    Primark Size Charts
                   </a>
                 </li>
               </ul>
