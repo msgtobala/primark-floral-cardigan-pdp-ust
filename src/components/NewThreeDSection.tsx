@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import ThreeDModel from './ThreeDModel';
-import goldVariant from '../assets/images/hero/variants/gold.png';
-// import trackImage from '../assets/images/3d-section/track.png';
+import goldVariant from '../assets/images/hero/variants/variant-1.png';
 
 interface ColorOption {
   id: string;
@@ -17,19 +16,19 @@ const NewThreeDSection: React.FC = () => {
     {
       id: 'black',
       name: 'Black',
-      color: '#1A1A1A',
+      color: '#95B8BC',
       image: goldVariant,
     },
     {
       id: 'brown',
       name: 'Brown',
-      color: '#8B4513',
+      color: '#D5BBA2',
       image: goldVariant,
     },
     {
       id: 'burgundy',
       name: 'Burgundy',
-      color: '#800020',
+      color: '#bdb6b6',
       image: goldVariant,
     },
     {
@@ -79,8 +78,8 @@ const NewThreeDSection: React.FC = () => {
         >
           <div className="flex items-center justify-between mb-8 lg:mb-2">
             <h1 className="text-[#0E1422] font-medium text-2xl md:text-3xl lg:text-3xl xl:text-3xl">
-              <div>Bialetti Bridgerton Moka</div>
-              <div>Espresso Make</div>
+              <div>Blue Dinosaur Print</div>
+              <div>Backpack</div>
             </h1>
 
             {/* Action Buttons */}
@@ -177,7 +176,7 @@ const NewThreeDSection: React.FC = () => {
             className="text-white px-8 py-3 font-medium hover:opacity-90 transition-opacity rounded text-sm"
             style={{
               background:
-                'linear-gradient(7.89deg, #627E6C -18.2%, #405849 160.3%)',
+                'linear-gradient(7.89deg, #05080D -18.2%, #474C57 160.3%)',
             }}
           >
             Buy Now

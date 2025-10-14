@@ -29,7 +29,7 @@ const SuitcaseModel: React.FC<SuitcaseModelProps> = ({
   if (!scene) return null;
 
   return (
-    <group ref={meshRef} scale={1.06} rotation={[0, 0, 0]} position={[0, -0.2, 0]}>
+    <group ref={meshRef} scale={0.7} rotation={[0, -1.4, 0]} position={[0, 0.15, 0]}>
       <primitive object={scene.clone()} />
     </group>
   );
@@ -94,7 +94,7 @@ const ThreeDModel: React.FC<ThreeDModelProps> = () => {
         />
         <SuitcaseModel />
         <ContactShadows
-          position={[0, -0.95, 0]}
+          position={[0, -0.55, 0]}
           opacity={0.5}
           scale={2.5}
           blur={2.4}

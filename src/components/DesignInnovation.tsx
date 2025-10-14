@@ -5,7 +5,7 @@ import toteImage from '../assets/images/innovation/cups.png';
 import backpackImage from '../assets/images/innovation/moka-makker.png';
 import crossbodyImage from '../assets/images/innovation/espresso-maker.png';
 import bagImage from '../assets/images/innovation/espresso-maker-red.png';
-import familyImage from '../assets/images/innovation/family-1.png';
+import familyImage from '../assets/images/innovation/family.png';
 
 interface Product {
   id: string;
@@ -18,26 +18,26 @@ const DesignInnovation: React.FC = () => {
   const products: Product[] = [
     {
       id: '1',
-      name: 'Bialetti Bridgerton Espresso Cups',
-      price: '139.00 AED',
+      name: 'Cream Leopard Print Water Bottle',
+      price: '£16',
       image: toteImage
     },
     {
       id: '2',
-      name: 'Bialetti Bridgerton Moka Espresso Maker',
-      price: '269.00 AED',
+      name: 'Navy Blue Knitted Polo Shirt (3-16yrs)',
+      price: '£16 - £21',
       image: backpackImage
     },
     {
       id: '3',
-      name: 'Bialetti D&G Moka Espresso Maker',
-      price: '399.00 AED',
+      name: 'Kids’ Mid Blue Wide-Leg Cargo Jeans',
+      price: '£12 - £14',
       image: crossbodyImage
     },
     {
       id: '4',
-      name: 'Bialetti D&G Moka Espresso Maker 250ml',
-      price: '499.00 AED',
+      name: 'Blue Paw Patrol Elastic Lace Trainers',
+      price: '£28 - £30',
       image: bagImage
     }
   ];

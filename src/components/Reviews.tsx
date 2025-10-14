@@ -23,7 +23,7 @@ const Reviews: React.FC = () => {
       timeAgo: '2 WEEKS AGO',
       rating: 4,
       comment:
-        'Very good quality, it was a gift and the person loved it.',
+        'Perfect birthday present for my nephew. He is using it every day as his school bag.',
       images: [review1],
     },
     {
@@ -31,7 +31,7 @@ const Reviews: React.FC = () => {
       name: 'MichaelR',
       timeAgo: '2 WEEKS AGO',
       rating: 4,
-      comment: 'It\'s beautiful. It works great, and the coffee is an aromatic pleasure. I bought an adapter for an induction cooktop, and it works great. I recommend it.',
+      comment: 'Perfect everyday wear for kids. Durable, stylish, and easy to wash. Highly recommend for parents looking for affordable quality.',
       images: [review2],
     },
     {
@@ -40,7 +40,7 @@ const Reviews: React.FC = () => {
       timeAgo: '2 WEEKS AGO',
       rating: 4,
       comment:
-        'Look at this perfection! It\'s original! It even came with Lady Whistledown\'s review. The material is very sturdy, the paint looks like enamel, it\'s almost a shame to use it. I recommend it to Bridgerton fans who want to collect; here we\'ll use it to make a good cup of coffee.',
+        'Lovely quality fabric, feels soft and comfortable. My son absolutely loves the dinosaur print. Washes well and keeps its shape. Very happy with this purchase!',
       images: [review3, review4],
     },
     {
@@ -49,7 +49,7 @@ const Reviews: React.FC = () => {
       timeAgo: '4 WEEKS AGO',
       rating: 4,
       comment:
-        'Feels like being back in Italy Cool design Easy cleaning',
+        'Bought this for my nephew’s birthday and he was thrilled! Bright colours and fun design, he wears it all the time.',
       images: [],
     },
   ];

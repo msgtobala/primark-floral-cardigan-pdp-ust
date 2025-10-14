@@ -16,13 +16,12 @@ const Footer: React.FC = () => {
           <div className="lg:flex-shrink-0">
             {/* Logo */}
             <div className="mb-[26px]">
-              <img src={logo} alt="Nordstrom" className="w-[264px] h-[33px]" />
+              <img src={logo} alt="Primark" style={{ width: '250px' }} />
             </div>
 
             {/* Description */}
             <p className="text-[#5C5F6A] text-md leading-relaxed mb-[42px] max-w-xs">
-              Where fashion feels effortless. <br /> Where service feels
-              tailored.
+              Bringing everyday style and comfort to you, wherever you are.
             </p>
 
             {/* Social Media Icons */}
@@ -86,16 +85,16 @@ const Footer: React.FC = () => {
           <div className="flex flex-col sm:flex-row sm:gap-16 lg:gap-20 xl:gap-24 gap-8">
             {/* Support Column */}
             <div className="">
-              <h3 className="text-[#878A92] font-regular text-[14px] mb-4 uppercase tracking-wide mb-[54px]">
-                Azadea
+              <h3 className="text-[#0E1422] font-regular text-[14px] mb-4  tracking-wide mb-[54px]">
+                Shopping With Us
               </h3>
-              <ul className="space-y-6">
+              <ul className="space-y-4">
                 <li>
                   <a
                     href="#"
                     className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
                   >
-                    About Us
+                    Primarkunlimited
                   </a>
                 </li>
                 <li>
@@ -103,7 +102,7 @@ const Footer: React.FC = () => {
                     href="#"
                     className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
                   >
-                    Careers
+                    Primark Credit Options
                   </a>
                 </li>
                 <li>
@@ -111,24 +110,7 @@ const Footer: React.FC = () => {
                     href="#"
                     className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
                   >
-                    Azadea Group
-                  </a>
-                </li>
-              </ul>
-            </div>
-
-            {/* Company Column */}
-            <div className="">
-              <h3 className="text-[#878A92] font-regular text-[14px] mb-4 uppercase tracking-wide mb-[54px]">
-                Help with
-              </h3>
-              <ul className="space-y-6">
-                <li>
-                  <a
-                    href="#"
-                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
-                  >
-                    Store Locator
+                    eGift Cards
                   </a>
                 </li>
                 <li>
@@ -136,7 +118,7 @@ const Footer: React.FC = () => {
                     href="#"
                     className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
                   >
-                    Frequently Asked Questions
+                    Gift Cards
                   </a>
                 </li>
                 <li>
@@ -144,7 +126,7 @@ const Footer: React.FC = () => {
                     href="#"
                     className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
                   >
-                    Fast Delivery
+                    Gift Experiences
                   </a>
                 </li>
                 <li>
@@ -152,15 +134,7 @@ const Footer: React.FC = () => {
                     href="#"
                     className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
                   >
-                    Free Returns
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
-                  >
-                    Payment
+                    Flowers, Plants & Wine
                   </a>
                 </li>
                 <li>
@@ -182,18 +156,18 @@ const Footer: React.FC = () => {
               </ul>
             </div>
 
-            {/* Shop Column */}
+            {/* Company Column */}
             <div className="">
-              <h3 className="text-[#878A92] font-regular text-[14px] mb-4 uppercase tracking-wide mb-[54px]">
-                Services
+              <h3 className="text-[#0E1422] font-regular text-[14px] mb-4  tracking-wide mb-[54px]">
+                Help with
               </h3>
-              <ul className="space-y-6">
+              <ul className="space-y-4">
                 <li>
                   <a
                     href="#"
                     className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
                   >
-                    Order and Return Status
+                    Frequently Asked Questions
                   </a>
                 </li>
                 <li>
@@ -201,7 +175,112 @@ const Footer: React.FC = () => {
                     href="#"
                     className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
                   >
-                    Coupons
+                    Delivery Information
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
+                  >
+                    Arrange A Return
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
+                  >
+                    Product Recall
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
+                  >
+                    Contact Us
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
+                  >
+                    Accessible Site
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
+                  >
+                    Website Accessibility Policy
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            {/* Shop Column */}
+            <div className="">
+              <h3 className="text-[#0E1422] font-regular text-[14px] mb-4  tracking-wide mb-[54px]">
+                More From Primark
+              </h3>
+              <ul className="space-y-4">
+                <li>
+                  <a
+                    href="#"
+                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
+                  >
+                    Primark App
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
+                  >
+                    The Company
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
+                  >
+                    Media & Press
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
+                  >
+                    Careers @ Primark
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
+                  >
+                    View Our Modern Slavery Statement
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
+                  >
+                    Gender Pay Report
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="#"
+                    className="text-[#5C5F6A] hover:text-[#0E1422] transition-colors text-sm"
+                  >
+                    Corporate Responsibility Report
                   </a>
                 </li>
               </ul>
@@ -217,7 +296,7 @@ const Footer: React.FC = () => {
           }}
         >
           <p className="text-[#5C5F6A] text-sm">
-            © 2025 Nordstorm. All rights reserved.
+            © 2025 Primark. All rights reserved.
           </p>
         </div>
       </div>

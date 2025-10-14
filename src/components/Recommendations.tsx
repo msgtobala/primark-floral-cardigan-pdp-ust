@@ -20,34 +20,34 @@ const Recommendations: React.FC = () => {
   const products: Product[] = [
     {
       id: '1',
-      name: 'Stanley Quencher H2.0',
-      price: '249.00 AED',
+      name: 'Grey Wide Fit Elastic Lace Trainers',
+      price: '£16 - £19',
       image: recommendation1
     },
     {
       id: '2',
-      name: 'Insight Canape Plate, Blue',
-      price: '39.00 AED',
+      name: 'Blue Cotton Geo Polo (3–16yrs)',
+      price: '£12 - £17',
       image: recommendation2
     },
     {
       id: '3',
-      name: 'Medium Blue Printed top',
-      price: '169.00 AED',
+      name: 'Brown Bear Backpack',
+      price: '£18',
       image: recommendation3
     },
     {
       id: '4',
-      name: 'Single Door Mini Refrigerator 38L',
-      price: '3,870.00 AED',
+      name: 'Ted Baker Colourblock Coat',
+      price: '£50 - £57',
       image: recommendation4,
-      colors: ['#D6E8F4', '#000000', '#F5B4B4'],
-      selectedColor: 'Camel'
+      colors: ['#2764AD', '#000000', '#B7BCB5'],
+      selectedColor: 'Blue'
     },
     {
       id: '5',
-      name: 'Anthropologie Woven Shoulder, Gold',
-      price: '440.10 AED',
+      name: 'Charcoal Basic Shorts (3–16yrs)',
+      price: '£6 - £11',
       image: recommendation5
     }
   ];
@@ -75,7 +75,7 @@ const Recommendations: React.FC = () => {
                 {/* Color Selection for Beanie - Inside the card */}
                 {product.colors && (
                   <div className="absolute bottom-4 left-4 flex flex-col gap-2">
-                    <span className="text-[#0E1422] text-sm font-medium">{product.selectedColor}</span>
+                    <span className="text-[#0E1422] text-sm font-regular">{product.selectedColor}</span>
                     <div className="flex gap-1">
                       {product.colors.map((color, index) => (
                         <button
