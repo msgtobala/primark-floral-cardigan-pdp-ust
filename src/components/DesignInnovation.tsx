@@ -18,14 +18,14 @@ const DesignInnovation: React.FC = () => {
   const products: Product[] = [
     {
       id: '1',
-      name: 'Gum Sole Low-Rise Trainers',
-      price: '£15',
+      name: 'Slim Ankle-Grazer Pants',
+      price: '£18',
       image: toteImage
     },
     {
       id: '2',
-      name: 'Slim Ankle-Grazer Pants',
-      price: '£18',
+      name: 'Gum Sole Low-Rise Trainers',
+      price: '£15',
       image: backpackImage
     },
     {
