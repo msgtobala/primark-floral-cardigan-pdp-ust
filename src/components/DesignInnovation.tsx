@@ -24,7 +24,7 @@ const DesignInnovation: React.FC = () => {
     },
     {
       id: '2',
-      name: 'Mid-Rise Flared Leg Jeans',
+      name: 'Slim Ankle-Grazer Pants',
       price: '£18',
       image: backpackImage
     },
