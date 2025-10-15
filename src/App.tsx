@@ -16,9 +16,9 @@ import Footer from './components/Footer';
 
 function App() {
   const breadcrumbItems = [
-    { label: 'Home', href: '/' },
-    { label: 'Men', href: '/sale' },
-    { label: 'Jacket', isActive: true },
+    { label: 'Women', href: '/' },
+    { label: 'Clothing', href: '/sale' },
+    { label: 'Jumpers & Cardigans', isActive: true },
   ];
 
   return (
