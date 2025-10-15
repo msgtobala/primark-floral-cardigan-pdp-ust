@@ -129,7 +129,7 @@ const Reviews: React.FC = () => {
                   </div>
                   {review.images.length > 0 && (
                     <div className="flex gap-2 flex-shrink-0">
-                      {review.images.map((image, index) => (
+                      {review.images.map((_, index) => (
                         <div
                           key={index}
                           className="w-16 h-16 bg-gray-100 rounded-lg overflow-hidden"

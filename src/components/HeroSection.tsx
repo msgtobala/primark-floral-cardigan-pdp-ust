@@ -10,8 +10,8 @@ import heroNew6 from '../assets/images/hero/hero-new-6.mp4';
 import tumi1 from '../assets/images/hero/you-may-also-like/tumi-1.png';
 import tumi2 from '../assets/images/hero/you-may-also-like/tumi-2.png';
 import tumi3 from '../assets/images/hero/you-may-also-like/tumi-3.png';
-import Black from '../assets/images/hero/variants/variant-1.png';
-import Gold from '../assets/images/hero/variants/variant-2.png';
+// import Black from '../assets/images/hero/variants/variant-1.png';
+// import Gold from '../assets/images/hero/variants/variant-2.png';
 
 interface Product {
   id: string;
@@ -66,21 +66,21 @@ const HeroSection: React.FC = () => {
 
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [quantity, setQuantity] = useState(1);
-  const [selectedColor, setSelectedColor] = useState('Blue Dinosaur Print');
+  // const [selectedColor, setSelectedColor] = useState('Blue Dinosaur Print');
   // const [currentMedia, setSelectedMedia] = useState(
   //   productMedia[selectedImageIndex]
   // );
 
-  const colorOptions = [
-    {
-      name: 'Blue Dinosaur Print',
-      image: Black,
-    },
-    {
-      name: 'Gold',
-      image: Gold,
-    },
-  ];
+  // const colorOptions = [
+  //   {
+  //     name: 'Blue Dinosaur Print',
+  //     image: Black,
+  //   },
+  //   {
+  //     name: 'Gold',
+  //     image: Gold,
+  //   },
+  // ];
 
   const youMightAlsoLikeBase: Product[] = [
     {
