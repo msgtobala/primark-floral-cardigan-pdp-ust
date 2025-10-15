@@ -18,7 +18,7 @@ const DesignBanner: React.FC = () => {
         >
           <div className="max-w-md">
 
-            
+
             {/* Main Title */}
             <h2 className="text-white font-regular text-2xl sm:text-3xl md:text-4xl lg:text-3xl xl:text-3xl mb-6 leading-tight">
               Effortlessly Refined
@@ -26,7 +26,7 @@ const DesignBanner: React.FC = () => {
 
             {/* Description */}
             <p className="text-white/70 text-sm sm:text-base md:text-lg leading-relaxed">
-            A softly styled layer that adds subtle elegance to any outfit.
+             A refined layer that adds quiet elegance to any outfit.
             </p>
           </div>
         </div>

@@ -25,8 +25,8 @@ export const slides: CarouselSlide[] = [
   },
   {
     id: 2,
-    title: 'Soft Fit, Everyday Feel',
-    subtitle: 'Cropped length and puff sleeves give a flattering shape that works with jeans or skirts.',
+    title: 'Relaxed Fit, Everyday Style',
+    subtitle: 'Puff sleeves and gentle drape give it an effortless shape that elevates your everyday look.',
     video: 'toodler-chair.mp4',
     image: detail2,
     backgroundColor: 'bg-[#E1FBFF]',
