@@ -16,8 +16,8 @@ export interface CarouselSlide {
 export const slides: CarouselSlide[] = [
   {
     id: 1,
-    title: 'Room for Every Adventure',
-    subtitle: 'Spacious inside with smart compartments, this backpack keeps books, snacks, and treasures organized all day.',
+    title: 'Soft Knit, Subtle Charm',
+    subtitle: 'A cozy knit with delicate floral embroidery for easy, everyday layering.',
     video: '/baby-high-chair.mp4',
     image: detail1,
     backgroundColor: 'bg-[#FFF5EB]',
@@ -25,8 +25,8 @@ export const slides: CarouselSlide[] = [
   },
   {
     id: 2,
-    title: 'Made for Explorers',
-    subtitle: 'Padded straps and roomy compartments make it comfy to carry and easy to organize.',
+    title: 'Soft Fit, Everyday Feel',
+    subtitle: 'Cropped length and puff sleeves give a flattering shape that works with jeans or skirts.',
     video: 'toodler-chair.mp4',
     image: detail2,
     backgroundColor: 'bg-[#E1FBFF]',
@@ -34,8 +34,8 @@ export const slides: CarouselSlide[] = [
   },
   {
     id: 3,
-    title: 'Built for Little Shoulders',
-    subtitle: 'Ergonomic straps distribute weight evenly, making it easier and comfier for kids to carry their essentials.',
+    title: 'Thoughtful Finishing Touches',
+    subtitle: 'Embroidery, tonal buttons, and ribbed trims add subtle detail and lasting comfort.',
     video: 'modern-high-chair.mp4', 
     image: detail3,
     backgroundColor: 'bg-[#EAE6DB]',

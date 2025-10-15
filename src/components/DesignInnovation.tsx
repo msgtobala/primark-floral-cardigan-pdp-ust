@@ -18,26 +18,26 @@ const DesignInnovation: React.FC = () => {
   const products: Product[] = [
     {
       id: '1',
-      name: 'Cream Leopard Print Water Bottle',
-      price: '£16',
+      name: 'Gum Sole Low-Rise Trainers',
+      price: '£15',
       image: toteImage
     },
     {
       id: '2',
-      name: 'Navy Blue Knitted Polo Shirt (3-16yrs)',
-      price: '£16 - £21',
+      name: 'Mid-Rise Baggy Jeans',
+      price: '£18',
       image: backpackImage
     },
     {
       id: '3',
-      name: 'Kids’ Mid Blue Wide-Leg Cargo Jeans',
-      price: '£12 - £14',
+      name: 'The Edit Classic PU Watch',
+      price: '£10',
       image: crossbodyImage
     },
     {
       id: '4',
-      name: 'Blue Paw Patrol Elastic Lace Trainers',
-      price: '£28 - £30',
+      name: 'Rita Ora Diamanté Rose Ring',
+      price: '£4',
       image: bagImage
     }
   ];

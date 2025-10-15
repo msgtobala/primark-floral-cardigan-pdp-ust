@@ -85,18 +85,18 @@ const HeroSection: React.FC = () => {
   const youMightAlsoLikeBase: Product[] = [
     {
       id: '1',
-      name: 'Gap Green Camo Camo Backpack',
-      brand: 'Gap Green Camo Camo Backpack',
-      price: '£30',
-      originalPrice: '£40',
+      name: 'Jacquard Floral Cardigan',
+      brand: 'Jacquard Floral Cardigan',
+      price: '£18',
+      originalPrice: '£25',
       image: tumi1,
       color: '#E8E8E8',
     },
     {
       id: '2',
-      name: 'Linen Blend Shirt',
-      brand: 'Linen Blend Shirt',
-      originalPrice: '£10 - £15',
+      name: 'Floral Jacquard Knit Jumper',
+      brand: 'Floral Jacquard Knit Jumper',
+      originalPrice: '£14',
       price: '',
       image: tumi2,
       isSponsored: true,
@@ -104,9 +104,9 @@ const HeroSection: React.FC = () => {
     },
     {
       id: '3',
-      name: 'Adidas Red Youth Prime Backpack',
-      brand: 'Adidas Red Youth Prime Backpack',
-      originalPrice: '£18',
+      name: 'Crew Neck Cable Knit Jumper',
+      brand: 'Crew Neck Cable Knit Jumper',
+      originalPrice: '£14',
       price: '',
       image: tumi3,
       color: '#EBEEF0',
@@ -259,7 +259,7 @@ const HeroSection: React.FC = () => {
 
               {/* Product Title */}
               <h1 className="text-lg md:text-xl font-medium text-black mb-2 leading-tight">
-                Blue Dinosaur Print Backpack
+                Embroidered Floral Cardigan – Grey
               </h1>
 
               {/* Brand */}
@@ -267,21 +267,20 @@ const HeroSection: React.FC = () => {
 
               {/* Price */}
               <div className="mb-4">
-                <span className="text-xl font-medium text-black">£20</span>
+                <span className="text-xl font-medium text-black">£15</span>
               </div>
 
               {/* Description */}
               <p className="text-[#777777] text-md leading-relaxed mb-4 font-normal">
-                A playful, eco-friendly kids’ backpack made from recycled
-                polyester, compact and perfect for daily adventures.
+              A soft grey cardigan with delicate floral embroidery and gentle puff sleeves. Designed with a slightly cropped length, this piece adds a touch of charm and warmth to your everyday style.
               </p>
 
-              <div className="my-4">
+              {/* <div className="my-4">
                 <hr className="border-[#E6E7E8] border-0.5" />
-              </div>
+              </div> */}
 
               {/* Color Selection */}
-              <div className="mb-4 flex justify-between items-center">
+              {/* <div className="mb-4 flex justify-between items-center">
                 <h3 className="text-sm font-normal text-black mb-2">
                   {selectedColor}
                 </h3>
@@ -306,11 +305,11 @@ const HeroSection: React.FC = () => {
                     </button>
                   ))}
                 </div>
-              </div>
+              </div> */}
 
-              <div className="mb-8">
+              {/* <div className="mb-8">
                 <hr className="border-[#E6E7E8] border-0.5" />
-              </div>
+              </div> */}
 
               {/* Quantity and Add to Cart */}
               <div className="flex items-center gap-3 mb-12">

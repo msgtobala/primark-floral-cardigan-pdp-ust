@@ -20,33 +20,32 @@ const Recommendations: React.FC = () => {
   const products: Product[] = [
     {
       id: '1',
-      name: 'Grey Wide Fit Elastic Lace Trainers',
+      name: 'Button-Up Cardigan',
       price: '£16 - £19',
       image: recommendation1
     },
     {
       id: '2',
-      name: 'Blue Cotton Geo Polo (3–16yrs)',
+      name: 'Button-Up Short Sleeve Cardigan',
       price: '£12 - £17',
       image: recommendation2
     },
     {
       id: '3',
-      name: 'Brown Bear Backpack',
+      name: 'Structured Cardigan',
       price: '£18',
       image: recommendation3
     },
     {
       id: '4',
-      name: 'Ted Baker Colourblock Coat',
+      name: 'Paula Echevarría Floral Cardigan',
       price: '£50 - £57',
       image: recommendation4,
-      colors: ['#2764AD', '#000000', '#B7BCB5'],
       selectedColor: 'Blue'
     },
     {
       id: '5',
-      name: 'Charcoal Basic Shorts (3–16yrs)',
+      name: 'The Edit Peplum Cardigan',
       price: '£6 - £11',
       image: recommendation5
     }

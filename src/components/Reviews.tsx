@@ -19,37 +19,37 @@ const Reviews: React.FC = () => {
   const reviews: Review[] = [
     {
       id: '1',
-      name: 'AmyT',
-      timeAgo: '2 WEEKS AGO',
+      name: 'Maya R',
+      timeAgo: '1 week ago',
       rating: 4,
       comment:
-        'Perfect birthday present for my nephew. He is using it every day as his school bag.',
+        'Love this cardigan! The embroidery is beautiful and it feels so soft. I’ve had lots of compliments already.',
       images: [review1],
     },
     {
       id: '2',
-      name: 'MichaelR',
+      name: 'Lucy A',
       timeAgo: '2 WEEKS AGO',
       rating: 4,
-      comment: 'Perfect everyday wear for kids. Durable, stylish, and easy to wash. Highly recommend for parents looking for affordable quality.',
+      comment: 'Perfect fit and colour. The puff sleeves add a nice touch without feeling too much.',
       images: [review2],
     },
     {
       id: '3',
-      name: 'JustinS',
-      timeAgo: '2 WEEKS AGO',
+      name: 'Hannah J',
+      timeAgo: '3 WEEKS AGO',
       rating: 4,
       comment:
-        'Lovely quality fabric, feels soft and comfortable. My son absolutely loves the dinosaur print. Washes well and keeps its shape. Very happy with this purchase!',
+        'Wore it for a weekend away and it’s now one of my favourites. So comfy and pretty.',
       images: [review3, review4],
     },
     {
       id: '4',
-      name: 'Olivia Brown',
+      name: 'Chloe W',
       timeAgo: '4 WEEKS AGO',
       rating: 4,
       comment:
-        'Bought this for my nephew’s birthday and he was thrilled! Bright colours and fun design, he wears it all the time.',
+        'Super soft and really good quality for the price. The little flowers make it feel unique',
       images: [],
     },
   ];
@@ -134,11 +134,6 @@ const Reviews: React.FC = () => {
                           key={index}
                           className="w-16 h-16 bg-gray-100 rounded-lg overflow-hidden"
                         >
-                          <img
-                            src={image}
-                            alt={`Review image ${index + 1}`}
-                            className="w-full h-full object-cover"
-                          />
                         </div>
                       ))}
                     </div>
@@ -238,22 +233,7 @@ const Reviews: React.FC = () => {
                       </div>
 
                       {/* Review Images */}
-                      {review.images.length > 0 && (
-                        <div className="flex gap-2 flex-shrink-0">
-                          {review.images.map((image, index) => (
-                            <div
-                              key={index}
-                              className="w-16 h-16 bg-gray-100 rounded-lg overflow-hidden"
-                            >
-                              <img
-                                src={image}
-                                alt={`Review image ${index + 1}`}
-                                className="w-full h-full object-cover"
-                              />
-                            </div>
-                          ))}
-                        </div>
-                      )}
+                      
                     </div>
                   </div>
                 ))}
