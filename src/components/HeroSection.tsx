@@ -149,7 +149,7 @@ const HeroSection: React.FC = () => {
                     muted
                     loop
                     playsInline
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-top"
                     key={currentMedia.src}
                   >
                     <source src={currentMedia.src} type="video/mp4" />
@@ -162,7 +162,7 @@ const HeroSection: React.FC = () => {
                   <img
                     src={currentMedia.src}
                     alt={currentMedia.alt}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover object-top"
                     // className="w-full h-full"
                   />
                 )}
